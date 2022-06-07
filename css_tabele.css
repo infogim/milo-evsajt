@@ -1,0 +1,39 @@
+/* podešavanje fonta za celu stranicu */
+body {
+  font-family: Arial Verdana, sans-serif;
+}
+
+table {
+  width: 700px;
+  margin-left: auto;  /* da bi tabela bila na sredini stranice */
+  margin-right: auto; /* da bi tabela bila na sredini stranice */
+  caption-side: bottom; /* da bi natpis tabele bio ispod tabele */
+}
+
+table, td, th {
+  border: 1px solid gray;
+  border-collapse: collapse; /* tanke ivice oko ćelija i tabele */
+}
+
+th {
+  background-color: lightgreen;
+  height: 30px;
+  border-bottom: 2px solid darkgreen;
+  text-transform: uppercase  /* zaglavlje tabele ispisao velikim slovima */
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray; /* svaki drugi (parni) red je druge boje */
+}
+
+.sirina {
+  width: 200px; /* širina kolone za naslov knjige */
+}
+
+tr:hover {
+  background-color: lightslategray; /* kada se mišem dođe na red on promeni boju */
+}
