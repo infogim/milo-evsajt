@@ -1,0 +1,100 @@
+<html>
+
+
+.stadium{width: max-content;
+height: max-content;
+text-align: center;}
+
+#myHeader {
+  color: rgb(0, 2, 128);
+  padding: 40px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body {
+	background-image: url("pozadina.jpg");
+	background-repeat: repeat;
+	font-family: verdana;
+}
+
+h1 {
+    background-color: lightblue;
+	font-size: 40;
+	color: black;
+	text-align: center;
+	margin: 40px;
+	box-shadow: 3px 3px 3px white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkcyan;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(36, 105, 170);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+
+h2 {
+	font-family: verdana;
+	font-size: 25;
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	text-shadow: 3px 3px black;
+	background-color:#2748b4;
+}
+
+h3 {
+	font-family: verdana;
+	font-size: 30;
+	text-align: center;
+	color: black;
+	text-shadow: 3px 3px WHITE;
+}
+
+.stadium{
+	width: 1025;
+	height: 400;
+	border: solid;
+	border-color: black;
+	border-width: thin;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+	
+
+
+
+
+
+
+
